@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+
+body {
+    background: rgb(0, 0, 0);
+    /* color: white; */
+
+}
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    z-index: 4;
+}
+nav {
+    width: 100%;
+    transition: 0.4s;
+
+}
+nav.black {
+    background: #000;
+}
+.navigation a {
+    font-weight: 2em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 5rem;
+}
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+.navbar li {
+    list-style-type: none;
+}
+li .nav-link:hover {
+    color: #fa3d3d;
+    border-bottom: 1.5px solid  #fa3d3d;
+    transition: color 0.3s ease;
+}
+
+.main-view {
+    background: url('140912.jpg');
+    background-size: cover;
+    height: 100vh;
+    /* position: fixed; */
+    /* height: 65em; */
+
+}
+.display-1 {
+    /* font-size: index; */
+    width: 70%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-weight: 5em;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.cards .card1 {
+    width: 10em;
+    height: 13em;
+     background-color: #021420; 
+     box-shadow: 5px 5px 10px 0px rgba(51, 41, 41, 0.8);
+    /* color: white; */
+    /* border: 1px solid red; */
+}
+i {
+    position: relative;
+    left: 2.3rem;
+    top: 0.5rem;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+@media (max-width: 700px) {
+    .display-1 {
+        font-size: 350%;
+        width: 70%;
+        position: relative;
+        top: 30%;
+        left: 10%;
+        font-weight: 5em;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white
+        
+    }
+}

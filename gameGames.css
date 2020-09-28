@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: rgba(0,0,0);
+    color: #fff;
+}
+.row {
+    color: white;
+}
+.row .card-img-top {
+    transition: 0.3s;
+}
+.row .card-img-bottom {
+    transition: 0.5s;
+}
+.row .card-img-top:hover {
+    z-index: 1;
+    transform: scale(1.05);
+    transition: 0.5s ease-in;
+}
+.row .card-img-bottom:hover {
+    z-index: 1;
+    transform: scale(1.05);
+    transition: 0.5s ease-in;
+}
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    z-index: 4;
+}
+nav {
+    width: 100%;
+    transition: 0.4s;
+
+}
+nav.black {
+    background: #000;
+}
+.navigation a {
+    font-weight: 2em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 5rem;  
+}
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+li .nav-link:hover {
+    color: #fa3d3d;
+    border-bottom: 1.5px solid  #fa3d3d;
+    transition: color 0.3s ease;
+}

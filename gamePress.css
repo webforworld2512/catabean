@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+
+body {
+    background: url('pressBackground.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    color: white;
+}
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    z-index: 4;
+}
+.navigation a {
+    font-weight: 2em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 5rem;
+}
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+li .nav-link:hover {
+    color: #fa3d3d;
+    border-bottom: 1.5px solid  #fa3d3d;
+    transition: color 0.3s ease;
+}
+
+.form-container {
+    background:  rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    position: relative;
+    top: 5em;
+
+}
+.form-group {
+    width: 50%;
+}
+ .form-control {
+    background: transparent;
+}
